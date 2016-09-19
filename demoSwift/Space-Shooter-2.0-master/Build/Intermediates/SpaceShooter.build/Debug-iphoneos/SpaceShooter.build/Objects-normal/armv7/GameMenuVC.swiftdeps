@@ -1,0 +1,286 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GameMenuVC"
+provides-nominal:
+- "C12SpaceShooter10GameMenuVC"
+provides-member:
+- ["C12SpaceShooter10GameMenuVC", ""]
+provides-dynamic-lookup:
+- "newGame"
+- "exitGame"
+- "continueGame"
+- "viewDidLoad"
+- "optionsGame"
+depends-top-level:
+- "UIViewController"
+- "GameMenuVC"
+- !private "StringLiteralType"
+- "UIButton"
+- !private "print"
+- !private "SettingVC"
+- !private "LoadGameVC"
+- !private "BooleanLiteralType"
+- !private "ViewController"
+depends-member:
+- ["Ps9AnyObject", "continueGame"]
+- ["Ps9AnyObject", "exitGame"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instantiateViewControllerWithIdentifier"]
+- !private ["Ps9AnyObject", "navigationController"]
+- ["Ps9AnyObject", "newGame"]
+- ["Ps9AnyObject", "optionsGame"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "pushViewController"]
+- !private ["Ps9AnyObject", "storyboard"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "continueGame"]
+- ["Ps11CVarArgType", "exitGame"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "instantiateViewControllerWithIdentifier"]
+- !private ["Ps11CVarArgType", "navigationController"]
+- ["Ps11CVarArgType", "newGame"]
+- ["Ps11CVarArgType", "optionsGame"]
+- !private ["Ps11CVarArgType", "print"]
+- !private ["Ps11CVarArgType", "pushViewController"]
+- !private ["Ps11CVarArgType", "storyboard"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "continueGame"]
+- ["Ps28CustomDebugStringConvertible", "exitGame"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "instantiateViewControllerWithIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationController"]
+- ["Ps28CustomDebugStringConvertible", "newGame"]
+- ["Ps28CustomDebugStringConvertible", "optionsGame"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "pushViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "storyboard"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "continueGame"]
+- ["Ps23CustomStringConvertible", "exitGame"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "instantiateViewControllerWithIdentifier"]
+- !private ["Ps23CustomStringConvertible", "navigationController"]
+- ["Ps23CustomStringConvertible", "newGame"]
+- ["Ps23CustomStringConvertible", "optionsGame"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "pushViewController"]
+- !private ["Ps23CustomStringConvertible", "storyboard"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "continueGame"]
+- ["Ps9Equatable", "exitGame"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "instantiateViewControllerWithIdentifier"]
+- !private ["Ps9Equatable", "navigationController"]
+- ["Ps9Equatable", "newGame"]
+- ["Ps9Equatable", "optionsGame"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "pushViewController"]
+- !private ["Ps9Equatable", "storyboard"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["C12SpaceShooter10GameMenuVC", "GameMenuVC"]
+- !private ["C12SpaceShooter10GameMenuVC", "LoadGameVC"]
+- !private ["C12SpaceShooter10GameMenuVC", "SettingVC"]
+- ["C12SpaceShooter10GameMenuVC", "UIButton"]
+- !private ["C12SpaceShooter10GameMenuVC", "ViewController"]
+- ["C12SpaceShooter10GameMenuVC", "continueGame"]
+- ["C12SpaceShooter10GameMenuVC", "deinit"]
+- ["C12SpaceShooter10GameMenuVC", "exitGame"]
+- ["C12SpaceShooter10GameMenuVC", "init"]
+- !private ["C12SpaceShooter10GameMenuVC", "navigationController"]
+- ["C12SpaceShooter10GameMenuVC", "newGame"]
+- ["C12SpaceShooter10GameMenuVC", "optionsGame"]
+- !private ["C12SpaceShooter10GameMenuVC", "print"]
+- !private ["C12SpaceShooter10GameMenuVC", "storyboard"]
+- ["C12SpaceShooter10GameMenuVC", "viewDidLoad"]
+- ["Ps8Hashable", "continueGame"]
+- ["Ps8Hashable", "exitGame"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "instantiateViewControllerWithIdentifier"]
+- !private ["Ps8Hashable", "navigationController"]
+- ["Ps8Hashable", "newGame"]
+- ["Ps8Hashable", "optionsGame"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "pushViewController"]
+- !private ["Ps8Hashable", "storyboard"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["PSo8NSCoding", "continueGame"]
+- ["PSo8NSCoding", "exitGame"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "navigationController"]
+- ["PSo8NSCoding", "newGame"]
+- ["PSo8NSCoding", "optionsGame"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "pushViewController"]
+- !private ["PSo8NSCoding", "storyboard"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "continueGame"]
+- ["PSo26NSExtensionRequestHandling", "exitGame"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationController"]
+- ["PSo26NSExtensionRequestHandling", "newGame"]
+- ["PSo26NSExtensionRequestHandling", "optionsGame"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- !private ["PSo26NSExtensionRequestHandling", "pushViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "storyboard"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo8NSObject", "GameMenuVC"]
+- !private ["CSo8NSObject", "LoadGameVC"]
+- !private ["CSo8NSObject", "SettingVC"]
+- ["CSo8NSObject", "UIButton"]
+- !private ["CSo8NSObject", "ViewController"]
+- ["CSo8NSObject", "continueGame"]
+- ["CSo8NSObject", "exitGame"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiateViewControllerWithIdentifier"]
+- !private ["CSo8NSObject", "navigationController"]
+- ["CSo8NSObject", "newGame"]
+- ["CSo8NSObject", "optionsGame"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "pushViewController"]
+- !private ["CSo8NSObject", "storyboard"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "continueGame"]
+- ["PSo16NSObjectProtocol", "exitGame"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiateViewControllerWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "navigationController"]
+- ["PSo16NSObjectProtocol", "newGame"]
+- ["PSo16NSObjectProtocol", "optionsGame"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "pushViewController"]
+- !private ["PSo16NSObjectProtocol", "storyboard"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- ["PSo21UIAppearanceContainer", "continueGame"]
+- ["PSo21UIAppearanceContainer", "exitGame"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "navigationController"]
+- ["PSo21UIAppearanceContainer", "newGame"]
+- ["PSo21UIAppearanceContainer", "optionsGame"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "pushViewController"]
+- !private ["PSo21UIAppearanceContainer", "storyboard"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "continueGame"]
+- ["PSo18UIContentContainer", "exitGame"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "navigationController"]
+- ["PSo18UIContentContainer", "newGame"]
+- ["PSo18UIContentContainer", "optionsGame"]
+- !private ["PSo18UIContentContainer", "print"]
+- !private ["PSo18UIContentContainer", "pushViewController"]
+- !private ["PSo18UIContentContainer", "storyboard"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- ["PSo18UIFocusEnvironment", "continueGame"]
+- ["PSo18UIFocusEnvironment", "exitGame"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "navigationController"]
+- ["PSo18UIFocusEnvironment", "newGame"]
+- ["PSo18UIFocusEnvironment", "optionsGame"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "pushViewController"]
+- !private ["PSo18UIFocusEnvironment", "storyboard"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo22UINavigationController", "pushViewController"]
+- !private ["CSo11UIResponder", "GameMenuVC"]
+- !private ["CSo11UIResponder", "LoadGameVC"]
+- !private ["CSo11UIResponder", "SettingVC"]
+- ["CSo11UIResponder", "UIButton"]
+- !private ["CSo11UIResponder", "ViewController"]
+- ["CSo11UIResponder", "continueGame"]
+- ["CSo11UIResponder", "exitGame"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "navigationController"]
+- ["CSo11UIResponder", "newGame"]
+- ["CSo11UIResponder", "optionsGame"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "pushViewController"]
+- !private ["CSo11UIResponder", "storyboard"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "continueGame"]
+- ["PSo16UIStateRestoring", "exitGame"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "navigationController"]
+- ["PSo16UIStateRestoring", "newGame"]
+- ["PSo16UIStateRestoring", "optionsGame"]
+- !private ["PSo16UIStateRestoring", "print"]
+- !private ["PSo16UIStateRestoring", "pushViewController"]
+- !private ["PSo16UIStateRestoring", "storyboard"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo12UIStoryboard", "instantiateViewControllerWithIdentifier"]
+- ["PSo18UITraitEnvironment", "continueGame"]
+- ["PSo18UITraitEnvironment", "exitGame"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "navigationController"]
+- ["PSo18UITraitEnvironment", "newGame"]
+- ["PSo18UITraitEnvironment", "optionsGame"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "pushViewController"]
+- !private ["PSo18UITraitEnvironment", "storyboard"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo16UIViewController", "GameMenuVC"]
+- !private ["CSo16UIViewController", "LoadGameVC"]
+- !private ["CSo16UIViewController", "SettingVC"]
+- ["CSo16UIViewController", "UIButton"]
+- !private ["CSo16UIViewController", "ViewController"]
+- ["CSo16UIViewController", "continueGame"]
+- ["CSo16UIViewController", "exitGame"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "navigationController"]
+- ["CSo16UIViewController", "newGame"]
+- ["CSo16UIViewController", "optionsGame"]
+- !private ["CSo16UIViewController", "print"]
+- !private ["CSo16UIViewController", "pushViewController"]
+- !private ["CSo16UIViewController", "storyboard"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "C12SpaceShooter10GameMenuVC"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- !private "CSo22UINavigationController"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo12UIStoryboard"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+interface-hash: "3f130037e7d0fb47d91d30f3c146e5f8"

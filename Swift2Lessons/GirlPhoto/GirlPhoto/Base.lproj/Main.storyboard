@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="GirlPhoto" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="owj-is-iJD">
+                                <rect key="frame" x="-26" y="969" width="17" height="31"/>
+                                <connections>
+                                    <action selector="onSlide:" destination="vXZ-lx-hvc" eventType="valueChanged" id="SgM-G5-Onf"/>
+                                </connections>
+                            </slider>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bikini.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ee5-j6-EXa">
+                                <rect key="frame" x="16" y="15" width="288" height="379"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="ee5-j6-EXa" secondAttribute="trailing" constant="-20" id="EdP-b1-MLQ"/>
+                            <constraint firstItem="ee5-j6-EXa" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-20" id="cfX-Nq-0sp"/>
+                            <constraint firstItem="owj-is-iJD" firstAttribute="top" secondItem="ee5-j6-EXa" secondAttribute="bottom" constant="17" id="qcy-D7-tUw"/>
+                            <constraint firstItem="ee5-j6-EXa" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="-8" id="tWo-Ji-6mD"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="girl" destination="ee5-j6-EXa" id="iGt-Km-T5G"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="218" y="423"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bikini.jpg" width="640" height="960"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_iHotel {
+  umbrella header "Pods-iHotel-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,102 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ShipView"
+provides-nominal:
+- "C12SpaceShooter8ShipView"
+provides-member:
+- ["C12SpaceShooter8ShipView", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "ShipView"
+- !private "StringLiteralType"
+- "NSCoder"
+- "UIImageView"
+- "CGRect"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C12SpaceShooter8ShipView", "CGRect"]
+- ["C12SpaceShooter8ShipView", "NSCoder"]
+- ["C12SpaceShooter8ShipView", "deinit"]
+- ["C12SpaceShooter8ShipView", "init"]
+- !private ["Vs12StaticString", "deinit"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIImageView", "CGRect"]
+- ["CSo11UIImageView", "NSCoder"]
+- ["CSo11UIImageView", "init"]
+- ["CSo11UIImageView", ""]
+- ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "NSCoder"]
+- ["CSo11UIResponder", "init"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGRect"]
+- ["CSo6UIView", "NSCoder"]
+- ["CSo6UIView", "init"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C12SpaceShooter8ShipView"
+- !private "Vs12StaticString"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIImageView"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+interface-hash: "5e08ed05f7743f229cef4a1234ccabc0"

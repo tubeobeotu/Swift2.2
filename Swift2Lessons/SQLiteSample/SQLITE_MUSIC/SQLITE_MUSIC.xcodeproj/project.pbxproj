@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB38BCFA1D4383A800855E1F /* TableViewCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38BCF91D4383A800855E1F /* TableViewCellBase.swift */; };
+		CB38BD031D438A9200855E1F /* Anh Bỏ Thuốc Em Sẽ Yêu - Lyna Thùy Linh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB38BCFE1D438A9200855E1F /* Anh Bỏ Thuốc Em Sẽ Yêu - Lyna Thùy Linh.jpg */; };
+		CB38BD041D438A9200855E1F /* Anh Cứ Đi Đi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB38BCFF1D438A9200855E1F /* Anh Cứ Đi Đi.jpg */; };
+		CB38BD051D438A9200855E1F /* Bí Mật Bị Thời Gian Vùi Lấp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB38BD001D438A9200855E1F /* Bí Mật Bị Thời Gian Vùi Lấp.jpg */; };
+		CB38BD061D438A9200855E1F /* Yêu Một Người Không Sai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB38BD011D438A9200855E1F /* Yêu Một Người Không Sai.jpg */; };
+		CB38BD071D438A9200855E1F /* Đếm Ngày Xa Em - Lou Hoàng,OnlyC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB38BD021D438A9200855E1F /* Đếm Ngày Xa Em - Lou Hoàng,OnlyC.jpg */; };
+		CB38BD1A1D438AAA00855E1F /* Chiến Binh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB38BD091D438AAA00855E1F /* Chiến Binh.jpg */; };
+		CB38BD1B1D438AAA00855E1F /* Chỉ Mong Trái Tim Người.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB38BD0A1D438AAA00855E1F /* Chỉ Mong Trái Tim Người.jpg */; };
+		CB38BD1C1D438AAA00855E1F /* Tình Yêu Nhạt Màu (Bí Mật Bị Thời Gian Vùi Lấp OST).jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB38BD0B1D438AAA00855E1F /* Tình Yêu Nhạt Màu (Bí Mật Bị Thời Gian Vùi Lấp OST).jpg */; };
+		CB38BD1D1D438AAA00855E1F /* Anh Cứ Đi Đi - Hari Won.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB38BD0D1D438AAA00855E1F /* Anh Cứ Đi Đi - Hari Won.jpg */; };
+		CB38BD1E1D438AAA00855E1F /* Điệp Khúc Mùa Xuân.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB38BD0E1D438AAA00855E1F /* Điệp Khúc Mùa Xuân.jpg */; };
+		CB38BD1F1D438AAA00855E1F /* LOUHOANG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB38BD101D438AAA00855E1F /* LOUHOANG.jpg */; };
+		CB38BD201D438AAA00855E1F /* Yêu Một Người Có Lẽ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB38BD111D438AAA00855E1F /* Yêu Một Người Có Lẽ.jpg */; };
+		CB38BD211D438AAA00855E1F /* Đếm Ngày Xa Em.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB38BD121D438AAA00855E1F /* Đếm Ngày Xa Em.jpg */; };
+		CB38BD221D438AAA00855E1F /* Anh Bỏ Thuốc Em Sẽ Yêu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB38BD141D438AAA00855E1F /* Anh Bỏ Thuốc Em Sẽ Yêu.jpg */; };
+		CB38BD231D438AAA00855E1F /* Gái Nhà Lành.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB38BD151D438AAA00855E1F /* Gái Nhà Lành.jpg */; };
+		CB38BD241D438AAA00855E1F /* LYNA THÙY LINH.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB38BD161D438AAA00855E1F /* LYNA THÙY LINH.jpg */; };
+		CB38BD251D438AAA00855E1F /* Chủ Nhật Buồn .jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB38BD181D438AAA00855E1F /* Chủ Nhật Buồn .jpg */; };
+		CB38BD261D438AAA00855E1F /* Yêu Một Người Không Sai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB38BD191D438AAA00855E1F /* Yêu Một Người Không Sai.jpg */; };
+		CB38BD281D438B9B00855E1F /* TableViewCellSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38BD271D438B9B00855E1F /* TableViewCellSong.swift */; };
+		CB38BD2A1D438BB900855E1F /* TableViewCellArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38BD291D438BB900855E1F /* TableViewCellArtist.swift */; };
+		CB38BD2C1D438BC700855E1F /* TableViewCellPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38BD2B1D438BC700855E1F /* TableViewCellPlaylist.swift */; };
+		CB38BD2F1D4395B500855E1F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38BD2E1D4395B500855E1F /* ListView.swift */; };
+		CB38BD321D43975F00855E1F /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38BD311D43975F00855E1F /* Label.swift */; };
+		CB38BD341D43A36F00855E1F /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38BD331D43A36F00855E1F /* Protocol.swift */; };
+		CB38BD371D43AF7A00855E1F /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38BD361D43AF7A00855E1F /* AddView.swift */; };
+		CB87BE811D430CD900BE80EB /* ViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB87BE801D430CD900BE80EB /* ViewControllerBase.swift */; };
+		CB87BE831D430CF500BE80EB /* ViewControllerTableBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB87BE821D430CF500BE80EB /* ViewControllerTableBase.swift */; };
+		CB87BE851D430D3900BE80EB /* ViewControllerCollectionBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB87BE841D430D3900BE80EB /* ViewControllerCollectionBase.swift */; };
+		CB87BE881D430D5300BE80EB /* ViewSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB87BE871D430D5300BE80EB /* ViewSongs.swift */; };
+		CB87BE8A1D430D6100BE80EB /* ViewAlbums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB87BE891D430D6100BE80EB /* ViewAlbums.swift */; };
+		CB87BE8C1D430D6C00BE80EB /* ViewArtists.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB87BE8B1D430D6C00BE80EB /* ViewArtists.swift */; };
+		CB87BE8E1D430D7D00BE80EB /* ViewPlaylists.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB87BE8D1D430D7D00BE80EB /* ViewPlaylists.swift */; };
+		CB8E54001D41B5DD00184974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E53FF1D41B5DD00184974 /* AppDelegate.swift */; };
+		CB8E54021D41B5DD00184974 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E54011D41B5DD00184974 /* ViewController.swift */; };
+		CB8E54051D41B5DD00184974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8E54031D41B5DD00184974 /* Main.storyboard */; };
+		CB8E54071D41B5DD00184974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8E54061D41B5DD00184974 /* Assets.xcassets */; };
+		CB8E540A1D41B5DD00184974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8E54081D41B5DD00184974 /* LaunchScreen.storyboard */; };
+		CB8E541E1D41B68400184974 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8E54131D41B68400184974 /* FMDatabase.m */; };
+		CB8E541F1D41B68400184974 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8E54151D41B68400184974 /* FMDatabaseAdditions.m */; };
+		CB8E54201D41B68400184974 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8E54171D41B68400184974 /* FMDatabasePool.m */; };
+		CB8E54211D41B68400184974 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8E54191D41B68400184974 /* FMDatabaseQueue.m */; };
+		CB8E54221D41B68400184974 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8E541C1D41B68400184974 /* FMResultSet.m */; };
+		CB8E54231D41B68400184974 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB8E541D1D41B68400184974 /* Info.plist */; };
+		CB8E54251D41B6B400184974 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8E54241D41B6B400184974 /* libsqlite3.dylib */; };
+		CB8E54271D41B6D700184974 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E54261D41B6D700184974 /* DataBase.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB38BCF91D4383A800855E1F /* TableViewCellBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellBase.swift; sourceTree = "<group>"; };
+		CB38BCFE1D438A9200855E1F /* Anh Bỏ Thuốc Em Sẽ Yêu - Lyna Thùy Linh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anh Bỏ Thuốc Em Sẽ Yêu - Lyna Thùy Linh.jpg"; sourceTree = "<group>"; };
+		CB38BCFF1D438A9200855E1F /* Anh Cứ Đi Đi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anh Cứ Đi Đi.jpg"; sourceTree = "<group>"; };
+		CB38BD001D438A9200855E1F /* Bí Mật Bị Thời Gian Vùi Lấp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bí Mật Bị Thời Gian Vùi Lấp.jpg"; sourceTree = "<group>"; };
+		CB38BD011D438A9200855E1F /* Yêu Một Người Không Sai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yêu Một Người Không Sai.jpg"; sourceTree = "<group>"; };
+		CB38BD021D438A9200855E1F /* Đếm Ngày Xa Em - Lou Hoàng,OnlyC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Đếm Ngày Xa Em - Lou Hoàng,OnlyC.jpg"; sourceTree = "<group>"; };
+		CB38BD091D438AAA00855E1F /* Chiến Binh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chiến Binh.jpg"; sourceTree = "<group>"; };
+		CB38BD0A1D438AAA00855E1F /* Chỉ Mong Trái Tim Người.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chỉ Mong Trái Tim Người.jpg"; sourceTree = "<group>"; };
+		CB38BD0B1D438AAA00855E1F /* Tình Yêu Nhạt Màu (Bí Mật Bị Thời Gian Vùi Lấp OST).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tình Yêu Nhạt Màu (Bí Mật Bị Thời Gian Vùi Lấp OST).jpg"; sourceTree = "<group>"; };
+		CB38BD0D1D438AAA00855E1F /* Anh Cứ Đi Đi - Hari Won.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anh Cứ Đi Đi - Hari Won.jpg"; sourceTree = "<group>"; };
+		CB38BD0E1D438AAA00855E1F /* Điệp Khúc Mùa Xuân.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Điệp Khúc Mùa Xuân.jpg"; sourceTree = "<group>"; };
+		CB38BD101D438AAA00855E1F /* LOUHOANG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LOUHOANG.jpg; sourceTree = "<group>"; };
+		CB38BD111D438AAA00855E1F /* Yêu Một Người Có Lẽ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yêu Một Người Có Lẽ.jpg"; sourceTree = "<group>"; };
+		CB38BD121D438AAA00855E1F /* Đếm Ngày Xa Em.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Đếm Ngày Xa Em.jpg"; sourceTree = "<group>"; };
+		CB38BD141D438AAA00855E1F /* Anh Bỏ Thuốc Em Sẽ Yêu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anh Bỏ Thuốc Em Sẽ Yêu.jpg"; sourceTree = "<group>"; };
+		CB38BD151D438AAA00855E1F /* Gái Nhà Lành.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gái Nhà Lành.jpg"; sourceTree = "<group>"; };
+		CB38BD161D438AAA00855E1F /* LYNA THÙY LINH.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LYNA THÙY LINH.jpg"; sourceTree = "<group>"; };
+		CB38BD181D438AAA00855E1F /* Chủ Nhật Buồn .jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chủ Nhật Buồn .jpg"; sourceTree = "<group>"; };
+		CB38BD191D438AAA00855E1F /* Yêu Một Người Không Sai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yêu Một Người Không Sai.jpg"; sourceTree = "<group>"; };
+		CB38BD271D438B9B00855E1F /* TableViewCellSong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellSong.swift; sourceTree = "<group>"; };
+		CB38BD291D438BB900855E1F /* TableViewCellArtist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellArtist.swift; sourceTree = "<group>"; };
+		CB38BD2B1D438BC700855E1F /* TableViewCellPlaylist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellPlaylist.swift; sourceTree = "<group>"; };
+		CB38BD2E1D4395B500855E1F /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		CB38BD311D43975F00855E1F /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		CB38BD331D43A36F00855E1F /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		CB38BD361D43AF7A00855E1F /* AddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		CB87BE801D430CD900BE80EB /* ViewControllerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerBase.swift; sourceTree = "<group>"; };
+		CB87BE821D430CF500BE80EB /* ViewControllerTableBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTableBase.swift; sourceTree = "<group>"; };
+		CB87BE841D430D3900BE80EB /* ViewControllerCollectionBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCollectionBase.swift; sourceTree = "<group>"; };
+		CB87BE871D430D5300BE80EB /* ViewSongs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewSongs.swift; sourceTree = "<group>"; };
+		CB87BE891D430D6100BE80EB /* ViewAlbums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAlbums.swift; sourceTree = "<group>"; };
+		CB87BE8B1D430D6C00BE80EB /* ViewArtists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewArtists.swift; sourceTree = "<group>"; };
+		CB87BE8D1D430D7D00BE80EB /* ViewPlaylists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPlaylists.swift; sourceTree = "<group>"; };
+		CB8E53FC1D41B5DD00184974 /* SQLITE_MUSIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLITE_MUSIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8E53FF1D41B5DD00184974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB8E54011D41B5DD00184974 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB8E54041D41B5DD00184974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB8E54061D41B5DD00184974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB8E54091D41B5DD00184974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB8E540B1D41B5DD00184974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8E54121D41B68400184974 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		CB8E54131D41B68400184974 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		CB8E54141D41B68400184974 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		CB8E54151D41B68400184974 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		CB8E54161D41B68400184974 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		CB8E54171D41B68400184974 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		CB8E54181D41B68400184974 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		CB8E54191D41B68400184974 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		CB8E541A1D41B68400184974 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		CB8E541B1D41B68400184974 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		CB8E541C1D41B68400184974 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		CB8E541D1D41B68400184974 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8E54241D41B6B400184974 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		CB8E54261D41B6D700184974 /* DataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		CB8E54291D41B9B600184974 /* SQLITE_MUSIC-Briding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQLITE_MUSIC-Briding-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB8E53F91D41B5DD00184974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8E54251D41B6B400184974 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB38BCF81D43837200855E1F /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CB38BCF91D4383A800855E1F /* TableViewCellBase.swift */,
+				CB38BD271D438B9B00855E1F /* TableViewCellSong.swift */,
+				CB38BD291D438BB900855E1F /* TableViewCellArtist.swift */,
+				CB38BD2B1D438BC700855E1F /* TableViewCellPlaylist.swift */,
+			);
+			name = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		CB38BCFB1D438A6A00855E1F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CB38BD351D43AF7100855E1F /* AddView */,
+				CB38BD301D43974D00855E1F /* Model */,
+				CB38BD2D1D43957200855E1F /* ListView */,
+				CB38BCFD1D438A7C00855E1F /* Albums */,
+				CB38BCFC1D438A7600855E1F /* Artists */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		CB38BCFC1D438A7600855E1F /* Artists */ = {
+			isa = PBXGroup;
+			children = (
+				CB38BD081D438AAA00855E1F /* Chí Thiện */,
+				CB38BD0C1D438AAA00855E1F /* HariWon */,
+				CB38BD0F1D438AAA00855E1F /* LOU HOÀNG */,
+				CB38BD131D438AAA00855E1F /* LYNA THUỲ LINH */,
+				CB38BD171D438AAA00855E1F /* MAI FIN */,
+			);
+			name = Artists;
+			sourceTree = "<group>";
+		};
+		CB38BCFD1D438A7C00855E1F /* Albums */ = {
+			isa = PBXGroup;
+			children = (
+				CB38BCFE1D438A9200855E1F /* Anh Bỏ Thuốc Em Sẽ Yêu - Lyna Thùy Linh.jpg */,
+				CB38BCFF1D438A9200855E1F /* Anh Cứ Đi Đi.jpg */,
+				CB38BD001D438A9200855E1F /* Bí Mật Bị Thời Gian Vùi Lấp.jpg */,
+				CB38BD011D438A9200855E1F /* Yêu Một Người Không Sai.jpg */,
+				CB38BD021D438A9200855E1F /* Đếm Ngày Xa Em - Lou Hoàng,OnlyC.jpg */,
+			);
+			name = Albums;
+			sourceTree = "<group>";
+		};
+		CB38BD081D438AAA00855E1F /* Chí Thiện */ = {
+			isa = PBXGroup;
+			children = (
+				CB38BD091D438AAA00855E1F /* Chiến Binh.jpg */,
+				CB38BD0A1D438AAA00855E1F /* Chỉ Mong Trái Tim Người.jpg */,
+				CB38BD0B1D438AAA00855E1F /* Tình Yêu Nhạt Màu (Bí Mật Bị Thời Gian Vùi Lấp OST).jpg */,
+			);
+			path = "Chí Thiện";
+			sourceTree = "<group>";
+		};
+		CB38BD0C1D438AAA00855E1F /* HariWon */ = {
+			isa = PBXGroup;
+			children = (
+				CB38BD0D1D438AAA00855E1F /* Anh Cứ Đi Đi - Hari Won.jpg */,
+				CB38BD0E1D438AAA00855E1F /* Điệp Khúc Mùa Xuân.jpg */,
+			);
+			path = HariWon;
+			sourceTree = "<group>";
+		};
+		CB38BD0F1D438AAA00855E1F /* LOU HOÀNG */ = {
+			isa = PBXGroup;
+			children = (
+				CB38BD101D438AAA00855E1F /* LOUHOANG.jpg */,
+				CB38BD111D438AAA00855E1F /* Yêu Một Người Có Lẽ.jpg */,
+				CB38BD121D438AAA00855E1F /* Đếm Ngày Xa Em.jpg */,
+			);
+			path = "LOU HOÀNG";
+			sourceTree = "<group>";
+		};
+		CB38BD131D438AAA00855E1F /* LYNA THUỲ LINH */ = {
+			isa = PBXGroup;
+			children = (
+				CB38BD141D438AAA00855E1F /* Anh Bỏ Thuốc Em Sẽ Yêu.jpg */,
+				CB38BD151D438AAA00855E1F /* Gái Nhà Lành.jpg */,
+				CB38BD161D438AAA00855E1F /* LYNA THÙY LINH.jpg */,
+			);
+			path = "LYNA THUỲ LINH";
+			sourceTree = "<group>";
+		};
+		CB38BD171D438AAA00855E1F /* MAI FIN */ = {
+			isa = PBXGroup;
+			children = (
+				CB38BD181D438AAA00855E1F /* Chủ Nhật Buồn .jpg */,
+				CB38BD191D438AAA00855E1F /* Yêu Một Người Không Sai.jpg */,
+			);
+			path = "MAI FIN";
+			sourceTree = "<group>";
+		};
+		CB38BD2D1D43957200855E1F /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				CB38BD2E1D4395B500855E1F /* ListView.swift */,
+			);
+			name = ListView;
+			sourceTree = "<group>";
+		};
+		CB38BD301D43974D00855E1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB38BD311D43975F00855E1F /* Label.swift */,
+				CB38BD331D43A36F00855E1F /* Protocol.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CB38BD351D43AF7100855E1F /* AddView */ = {
+			isa = PBXGroup;
+			children = (
+				CB38BD361D43AF7A00855E1F /* AddView.swift */,
+			);
+			name = AddView;
+			sourceTree = "<group>";
+		};
+		CB87BE7E1D430C9D00BE80EB /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				CB8E54261D41B6D700184974 /* DataBase.swift */,
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		CB87BE7F1D430CAE00BE80EB /* ViewBase */ = {
+			isa = PBXGroup;
+			children = (
+				CB87BE801D430CD900BE80EB /* ViewControllerBase.swift */,
+				CB87BE821D430CF500BE80EB /* ViewControllerTableBase.swift */,
+				CB87BE841D430D3900BE80EB /* ViewControllerCollectionBase.swift */,
+			);
+			name = ViewBase;
+			sourceTree = "<group>";
+		};
+		CB87BE861D430D4200BE80EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB87BE871D430D5300BE80EB /* ViewSongs.swift */,
+				CB87BE891D430D6100BE80EB /* ViewAlbums.swift */,
+				CB87BE8B1D430D6C00BE80EB /* ViewArtists.swift */,
+				CB87BE8D1D430D7D00BE80EB /* ViewPlaylists.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CB8E53F31D41B5DD00184974 = {
+			isa = PBXGroup;
+			children = (
+				CB8E54241D41B6B400184974 /* libsqlite3.dylib */,
+				CB8E53FE1D41B5DD00184974 /* SQLITE_MUSIC */,
+				CB8E53FD1D41B5DD00184974 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB8E53FD1D41B5DD00184974 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB8E53FC1D41B5DD00184974 /* SQLITE_MUSIC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB8E53FE1D41B5DD00184974 /* SQLITE_MUSIC */ = {
+			isa = PBXGroup;
+			children = (
+				CB38BCFB1D438A6A00855E1F /* Resource */,
+				CB38BCF81D43837200855E1F /* UITableViewCell */,
+				CB87BE861D430D4200BE80EB /* Views */,
+				CB87BE7F1D430CAE00BE80EB /* ViewBase */,
+				CB87BE7E1D430C9D00BE80EB /* DataBase */,
+				CB8E54111D41B68400184974 /* fmdb */,
+				CB8E53FF1D41B5DD00184974 /* AppDelegate.swift */,
+				CB8E54011D41B5DD00184974 /* ViewController.swift */,
+				CB8E54031D41B5DD00184974 /* Main.storyboard */,
+				CB8E54061D41B5DD00184974 /* Assets.xcassets */,
+				CB8E54081D41B5DD00184974 /* LaunchScreen.storyboard */,
+				CB8E540B1D41B5DD00184974 /* Info.plist */,
+				CB8E54291D41B9B600184974 /* SQLITE_MUSIC-Briding-Header.h */,
+			);
+			path = SQLITE_MUSIC;
+			sourceTree = "<group>";
+		};
+		CB8E54111D41B68400184974 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				CB8E54121D41B68400184974 /* FMDatabase.h */,
+				CB8E54131D41B68400184974 /* FMDatabase.m */,
+				CB8E54141D41B68400184974 /* FMDatabaseAdditions.h */,
+				CB8E54151D41B68400184974 /* FMDatabaseAdditions.m */,
+				CB8E54161D41B68400184974 /* FMDatabasePool.h */,
+				CB8E54171D41B68400184974 /* FMDatabasePool.m */,
+				CB8E54181D41B68400184974 /* FMDatabaseQueue.h */,
+				CB8E54191D41B68400184974 /* FMDatabaseQueue.m */,
+				CB8E541A1D41B68400184974 /* FMDB.h */,
+				CB8E541B1D41B68400184974 /* FMResultSet.h */,
+				CB8E541C1D41B68400184974 /* FMResultSet.m */,
+				CB8E541D1D41B68400184974 /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB8E53FB1D41B5DD00184974 /* SQLITE_MUSIC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB8E540E1D41B5DD00184974 /* Build configuration list for PBXNativeTarget "SQLITE_MUSIC" */;
+			buildPhases = (
+				CB8E53F81D41B5DD00184974 /* Sources */,
+				CB8E53F91D41B5DD00184974 /* Frameworks */,
+				CB8E53FA1D41B5DD00184974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLITE_MUSIC;
+			productName = SQLITE_MUSIC;
+			productReference = CB8E53FC1D41B5DD00184974 /* SQLITE_MUSIC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB8E53F41D41B5DD00184974 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TuNguyen;
+				TargetAttributes = {
+					CB8E53FB1D41B5DD00184974 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CB8E53F71D41B5DD00184974 /* Build configuration list for PBXProject "SQLITE_MUSIC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB8E53F31D41B5DD00184974;
+			productRefGroup = CB8E53FD1D41B5DD00184974 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB8E53FB1D41B5DD00184974 /* SQLITE_MUSIC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB8E53FA1D41B5DD00184974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB38BD1E1D438AAA00855E1F /* Điệp Khúc Mùa Xuân.jpg in Resources */,
+				CB38BD1B1D438AAA00855E1F /* Chỉ Mong Trái Tim Người.jpg in Resources */,
+				CB38BD231D438AAA00855E1F /* Gái Nhà Lành.jpg in Resources */,
+				CB38BD241D438AAA00855E1F /* LYNA THÙY LINH.jpg in Resources */,
+				CB38BD031D438A9200855E1F /* Anh Bỏ Thuốc Em Sẽ Yêu - Lyna Thùy Linh.jpg in Resources */,
+				CB38BD251D438AAA00855E1F /* Chủ Nhật Buồn .jpg in Resources */,
+				CB38BD221D438AAA00855E1F /* Anh Bỏ Thuốc Em Sẽ Yêu.jpg in Resources */,
+				CB38BD071D438A9200855E1F /* Đếm Ngày Xa Em - Lou Hoàng,OnlyC.jpg in Resources */,
+				CB38BD1D1D438AAA00855E1F /* Anh Cứ Đi Đi - Hari Won.jpg in Resources */,
+				CB38BD1A1D438AAA00855E1F /* Chiến Binh.jpg in Resources */,
+				CB38BD051D438A9200855E1F /* Bí Mật Bị Thời Gian Vùi Lấp.jpg in Resources */,
+				CB38BD201D438AAA00855E1F /* Yêu Một Người Có Lẽ.jpg in Resources */,
+				CB8E54231D41B68400184974 /* Info.plist in Resources */,
+				CB38BD1C1D438AAA00855E1F /* Tình Yêu Nhạt Màu (Bí Mật Bị Thời Gian Vùi Lấp OST).jpg in Resources */,
+				CB38BD1F1D438AAA00855E1F /* LOUHOANG.jpg in Resources */,
+				CB8E540A1D41B5DD00184974 /* LaunchScreen.storyboard in Resources */,
+				CB38BD211D438AAA00855E1F /* Đếm Ngày Xa Em.jpg in Resources */,
+				CB8E54071D41B5DD00184974 /* Assets.xcassets in Resources */,
+				CB38BD061D438A9200855E1F /* Yêu Một Người Không Sai.jpg in Resources */,
+				CB38BD261D438AAA00855E1F /* Yêu Một Người Không Sai.jpg in Resources */,
+				CB38BD041D438A9200855E1F /* Anh Cứ Đi Đi.jpg in Resources */,
+				CB8E54051D41B5DD00184974 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB8E53F81D41B5DD00184974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB38BCFA1D4383A800855E1F /* TableViewCellBase.swift in Sources */,
+				CB8E541E1D41B68400184974 /* FMDatabase.m in Sources */,
+				CB38BD2C1D438BC700855E1F /* TableViewCellPlaylist.swift in Sources */,
+				CB87BE8A1D430D6100BE80EB /* ViewAlbums.swift in Sources */,
+				CB8E54021D41B5DD00184974 /* ViewController.swift in Sources */,
+				CB38BD321D43975F00855E1F /* Label.swift in Sources */,
+				CB38BD281D438B9B00855E1F /* TableViewCellSong.swift in Sources */,
+				CB8E54221D41B68400184974 /* FMResultSet.m in Sources */,
+				CB38BD2A1D438BB900855E1F /* TableViewCellArtist.swift in Sources */,
+				CB87BE881D430D5300BE80EB /* ViewSongs.swift in Sources */,
+				CB87BE8C1D430D6C00BE80EB /* ViewArtists.swift in Sources */,
+				CB8E54201D41B68400184974 /* FMDatabasePool.m in Sources */,
+				CB87BE8E1D430D7D00BE80EB /* ViewPlaylists.swift in Sources */,
+				CB38BD371D43AF7A00855E1F /* AddView.swift in Sources */,
+				CB38BD2F1D4395B500855E1F /* ListView.swift in Sources */,
+				CB87BE831D430CF500BE80EB /* ViewControllerTableBase.swift in Sources */,
+				CB8E54001D41B5DD00184974 /* AppDelegate.swift in Sources */,
+				CB8E541F1D41B68400184974 /* FMDatabaseAdditions.m in Sources */,
+				CB38BD341D43A36F00855E1F /* Protocol.swift in Sources */,
+				CB87BE811D430CD900BE80EB /* ViewControllerBase.swift in Sources */,
+				CB87BE851D430D3900BE80EB /* ViewControllerCollectionBase.swift in Sources */,
+				CB8E54271D41B6D700184974 /* DataBase.swift in Sources */,
+				CB8E54211D41B68400184974 /* FMDatabaseQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB8E54031D41B5DD00184974 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB8E54041D41B5DD00184974 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB8E54081D41B5DD00184974 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB8E54091D41B5DD00184974 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB8E540C1D41B5DD00184974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB8E540D1D41B5DD00184974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB8E540F1D41B5DD00184974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SQLITE_MUSIC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nvt.SQLITE-MUSIC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SQLITE_MUSIC/SQLITE_MUSIC-Briding-Header.h";
+			};
+			name = Debug;
+		};
+		CB8E54101D41B5DD00184974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SQLITE_MUSIC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nvt.SQLITE-MUSIC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SQLITE_MUSIC/SQLITE_MUSIC-Briding-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB8E53F71D41B5DD00184974 /* Build configuration list for PBXProject "SQLITE_MUSIC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8E540C1D41B5DD00184974 /* Debug */,
+				CB8E540D1D41B5DD00184974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB8E540E1D41B5DD00184974 /* Build configuration list for PBXNativeTarget "SQLITE_MUSIC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8E540F1D41B5DD00184974 /* Debug */,
+				CB8E54101D41B5DD00184974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB8E53F41D41B5DD00184974 /* Project object */;
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DiaDao" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dSn-XD-CXR">
+                                <rect key="frame" x="16" y="269" width="247" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="86K-YR-bjt"/>
+                                    <constraint firstAttribute="width" constant="247" id="BeZ-Bc-i6k"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T2A-St-u6K">
+                                <rect key="frame" x="45" y="307" width="68" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="YRM-DJ-PnD"/>
+                                </constraints>
+                                <state key="normal" title="Ô bắt đầu"/>
+                                <connections>
+                                    <action selector="action_Run:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ggL-Bd-P73"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dSn-XD-CXR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="249" id="NgR-97-4sz"/>
+                            <constraint firstItem="dSn-XD-CXR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="TkJ-qv-5z1"/>
+                            <constraint firstItem="T2A-St-u6K" firstAttribute="top" secondItem="dSn-XD-CXR" secondAttribute="bottom" constant="8" id="WVL-LT-nMa"/>
+                            <constraint firstItem="T2A-St-u6K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="29" id="pvD-NY-3o7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btn_action" destination="T2A-St-u6K" id="Djv-Qk-pfG"/>
+                        <outlet property="txt_Route" destination="dSn-XD-CXR" id="uUg-oo-ac5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-422" y="412"/>
+        </scene>
+    </scenes>
+</document>

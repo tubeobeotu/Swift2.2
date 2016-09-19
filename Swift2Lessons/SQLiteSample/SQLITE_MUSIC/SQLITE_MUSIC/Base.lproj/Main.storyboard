@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Xo5-GP-JI2">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Soj-4h-AFJ">
+            <objects>
+                <navigationController id="Xo5-GP-JI2" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="5uv-vN-vuw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ocY-jQ-JFJ" kind="relationship" relationship="rootViewController" id="YTI-sT-uh5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kwl-0f-I5V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-505" y="38"/>
+        </scene>
+        <!--PLAYLIST-->
+        <scene sceneID="1sc-Wk-oJR">
+            <objects>
+                <viewController id="ycP-fE-JHn" customClass="ViewPlaylists" customModule="SQLITE_MUSIC" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DJ6-xk-DrJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Afa-tT-Mfd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AET-nR-8iN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="PLAYLIST" id="M3R-cB-Ofm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7gA-f8-2m9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-327" y="687"/>
+        </scene>
+        <!--ARTISTS-->
+        <scene sceneID="3Ag-By-dfJ">
+            <objects>
+                <viewController id="oQf-97-2Co" customClass="ViewArtists" customModule="SQLITE_MUSIC" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ddj-uQ-Jg4"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pro-s8-0QL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aSX-MM-XDm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="ARTISTS" id="12y-m8-B77"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GCs-38-cqz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101" y="745"/>
+        </scene>
+        <!--ALBUMS-->
+        <scene sceneID="YWO-Kf-hsQ">
+            <objects>
+                <viewController id="eLK-A9-ALZ" customClass="ViewAlbums" customModule="SQLITE_MUSIC" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dAi-xa-XUR"/>
+                        <viewControllerLayoutGuide type="bottom" id="od9-Tc-CIq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="C0l-TE-JTd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="ALBUMS" id="ne1-ep-DBP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rE6-6m-gZc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="393.60000000000002" y="237.61333333333334"/>
+        </scene>
+        <!--SONGS-->
+        <scene sceneID="YQ1-aO-0X7">
+            <objects>
+                <viewController id="riW-pq-6EB" customClass="ViewSongs" customModule="SQLITE_MUSIC" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zXY-fW-1XB"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZyU-GP-ff9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="y7F-5f-9KL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="SONGS" id="NFH-60-H0t"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q4q-U0-Bnc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="393.60000000000002" y="-387.18666666666667"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="heA-lJ-mqi">
+            <objects>
+                <viewController id="ADX-A1-MWc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cr5-cs-b3r"/>
+                        <viewControllerLayoutGuide type="bottom" id="lLN-7v-OQv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i8f-Yf-ilV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0WS-FX-oh5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-517" y="-559"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="OiX-5H-nVD">
+            <objects>
+                <tabBarController id="ocY-jQ-JFJ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="oiA-K5-Q6T">
+                        <barButtonItem key="leftBarButtonItem" image="btn_add" id="5QV-yP-b4U">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="ADX-A1-MWc" kind="modal" identifier="addView" modalTransitionStyle="partialCurl" id="1A2-cg-kCn"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="btn_search" id="dNG-87-kTk">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="nmT-OY-8Ze">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="riW-pq-6EB" kind="relationship" relationship="viewControllers" id="2Iy-Qf-l3G"/>
+                        <segue destination="eLK-A9-ALZ" kind="relationship" relationship="viewControllers" id="YJM-D6-qSN"/>
+                        <segue destination="ycP-fE-JHn" kind="relationship" relationship="viewControllers" id="l7G-mB-6D1"/>
+                        <segue destination="oQf-97-2Co" kind="relationship" relationship="viewControllers" id="MNr-jU-g37"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1vB-In-sKa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-112" y="-142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_add" width="30" height="30"/>
+        <image name="btn_search" width="30" height="31"/>
+    </resources>
+</document>

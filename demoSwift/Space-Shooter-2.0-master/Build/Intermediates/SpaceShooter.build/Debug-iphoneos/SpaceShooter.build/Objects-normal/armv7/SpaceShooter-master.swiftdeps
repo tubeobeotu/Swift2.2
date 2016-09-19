@@ -1,0 +1,16 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "043a2dd97d3c8f373cd638370daa1026"
+build_time: [525167237, 522141000]
+inputs:
+  "/Users/dangcan/Documents/demoSwift/Space-Shooter-2.0-master/SpaceShooter/ShipView.swift": [524243536, 0]
+  "/Users/dangcan/Documents/demoSwift/Space-Shooter-2.0-master/SpaceShooter/SettingVC.swift": [524243536, 0]
+  "/Users/dangcan/Documents/demoSwift/Space-Shooter-2.0-master/SpaceShooter/ViewController.swift": [524738374, 0]
+  "/Users/dangcan/Documents/demoSwift/Space-Shooter-2.0-master/SpaceShooter/MeteorView.swift": [524243536, 0]
+  "/Users/dangcan/Documents/demoSwift/Space-Shooter-2.0-master/SpaceShooter/GameOver.swift": [524738244, 0]
+  "/Users/dangcan/Documents/demoSwift/Space-Shooter-2.0-master/SpaceShooter/AppDelegate.swift": [524243536, 0]
+  "/Users/dangcan/Documents/demoSwift/Space-Shooter-2.0-master/SpaceShooter/GameMenuVC.swift": [524243536, 0]
+  "/Users/dangcan/Documents/demoSwift/Space-Shooter-2.0-master/SpaceShooter/Power.swift": [524738244, 0]
+  "/Users/dangcan/Documents/demoSwift/Space-Shooter-2.0-master/SpaceShooter/GameManager.swift": [524738200, 0]
+  "/Users/dangcan/Documents/demoSwift/Space-Shooter-2.0-master/SpaceShooter/Blalajljdad.swift": [524243536, 0]
+  "/Users/dangcan/Documents/demoSwift/Space-Shooter-2.0-master/SpaceShooter/Bullet.swift": [524737572, 0]
+  "/Users/dangcan/Documents/demoSwift/Space-Shooter-2.0-master/SpaceShooter/LoadGameVC.swift": [524738244, 0]
